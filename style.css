@@ -1,0 +1,25 @@
+  li {
+    display: inline;
+    color: white;
+    font-size: 5em;
+    margin: 10px;
+}
+  ul {
+    background-color: rgb(94, 14, 116);
+ }
+  a {
+    color: white;
+}
+  h2 {
+    text-align: center;
+}
+  img.smaller {
+height: 200px;
+width: 200px;
+}
+  p {
+    font-size: 1.5em;
+}
+  h2 {
+    font-size: 2em;
+}
