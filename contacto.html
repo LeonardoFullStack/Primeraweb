@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Resin S Layers</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <nav>
+        <ul class="enlinea">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="./comienzos.html">Comienzos</a></li>
+        </ul></nav>
+        <div>
+            <h2>Coméntame algo!</h2>
+            <p>Si estás interesado en algún proyecto en particular, o quieres aprender, o simplemente 
+                te apetece comentarnos algo, adelante! Resolveremos todas tus dudas sin ningún compromiso.
+            </p>
+        </div>
+        <img src="table.png">
+        <div>
+            <form action="data.js" method="POST">
+
+                <section>
+                    <h3>Marca el tipo de trabajo en el que estás interesado</h3>
+                    <input type="checkbox" name="interes" id="cubierta" value="Cubierta">
+                    <label for="cubierta">Cubierta</label>
+                    <input type="checkbox" name="interes" id="mueble" value="Mueble">
+                    <label for="mueble">Mueble</label>
+                    <input type="checkbox" name="interes" id="restaurar" value="restaurar">
+                    <label for="restaurar">Restaurar</label>
+                </section>
+                <section>
+                    <label>
+                        Tu nombre <input type="text" name="nombre" id="nombre"></label><br>
+                    <label>
+                        Tu e-mail <input type="text" name="email" id="email"></label>
+                </section>
+                <section>
+                    <label>
+                        Comentarios
+                    </label><br>
+                    <textarea rows="5" col="50" name="nombre"
+                        id="nombre">Escribe aquí tu comentario</textarea><br>
+                    <input type="button" value="enviar" id="enviar">
+            </form>
+            </section>
+        </div>
+        </form>
+        
+
     
 </body>
+<hr><footer><p>Todos los derechos reservados. <span class="verde">e-mail de contacto: <strong>esteveleonardo@gmail.com</strong></span></p></footer>
+
+
 </html>

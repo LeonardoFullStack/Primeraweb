@@ -1,36 +1,26 @@
-  *  {
-    text-align: center;
-    font-family: 'Andika'
-  }
-  
-  body {
+body {
     background-image: url("fondo.jpg")
   }
 
-  nav {
+  nav.enlinea {
+    position: fixed;
     text-align: center;
   }
   li {
-    display: inline-block;
+    display: inline;
     color: white;
     font-size: 3em;
     margin: 10px;
 }
   ul {
     background-color: rgb(94, 14, 116);
-    opacity: 0.8;
  }
   a {
     color: white;
-   
 }
-a:hover {
-  color: black
+  h2 {
+    text-align: center;
 }
-a:hover:visited {
-  color:chartreuse
-}
-
   img.smaller {
 height: 200px;
 width: 200px;
@@ -42,7 +32,7 @@ width: 200px;
  img.bigsize {
   height: 600px;
   width: 600px;
-
+  float: left;
  }
   p {
     font-size: 1.5em;
@@ -59,26 +49,19 @@ label {
 figcaption {
   color: white;
   font-size: 3em;
+  align: right;
 }
 .inline {
-display: inline-block;
+display: block;
 
 }
-
-.nuevatipo {
-  font-family: 'Andika'
+img * p {
+  height: 600px;
+  width: 600px; 
 }
-
-th > p {
-  color:lawngreen
-}
-
-td > p {
-  color:khaki;
-}
-.verde {
-  color:black;
-}
-
-
-
+img.bigsize2 {
+  height: 600px;
+  width: 600px;
+  float: left;
+  display: block;
+ }
